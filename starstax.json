@@ -1,0 +1,21 @@
+{
+    "version": "0.71",
+	  "description": "StarStaX is a fast multi-platform image stacking and blending software",
+    "homepage": "https://markus-enzweiler.de/software/starstax/",
+    "license": "unknown",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.markus-enzweiler.de/downloads/StarStaX-0.71_win64.zip",
+            "hash": "20742E406D35FBA67C799952E2FED875A355C239105C57F4F0AF619AEC503353"
+        }        
+    },
+	"extract_dir": "StarStaX-0.71_win64",
+  "bin": "StarStaX.exe",
+	"shortcuts": [
+        [
+            "StarStaX.exe",
+            "Star Sta X"
+        ]
+    ]   
+    
+}
