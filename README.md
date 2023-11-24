@@ -9,11 +9,11 @@ scoop bucket add eastern https://github.com/easternnl/ScoopEastern
 # Check this bucket
 ```
 scoop bucket list # -> you should see 'ScoopEastern'
-scoop search fscapture # -> you should see hello listed under, 'my-bucket bucket:'
+scoop search sendkeysgui # -> you should see sendkeysgui listed
 ```
 
 # To install
 Just as normal with scoop
 ```
-scoop install fscapture
+scoop install sendkeysgui
 ```
