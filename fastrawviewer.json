@@ -9,6 +9,7 @@
             "hash": "3a67f5edab2ee04b94da7bab7bc32e634f0ded41f11e390a35014399b31c4506"
         }        
     },	
+ "innosetup": true,
   "bin": "FastRawViewer.exe",
 	"shortcuts": [
         [
