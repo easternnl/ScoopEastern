@@ -1,20 +1,19 @@
 {
-    "version": "0.71",
-	  "description": "StarStaX is a fast multi-platform image stacking and blending software",
-    "homepage": "https://markus-enzweiler.de/software/starstax/",
-    "license": "unknown",
+    "version": "1.6.1",
+	  "description": "Sequator is a free software which can track stars on multiple images, align stars and stack them.",
+    "homepage": "https://sites.google.com/view/sequator/",
+    "license": "free",
     "architecture": {
         "64bit": {
-            "url": "https://www.markus-enzweiler.de/downloads/StarStaX-0.71_win64.zip",
-            "hash": "1c2c3fc7b7c96396accd724204b44b042230acc54b8e44a573d02021f794bbef"
+            "url": "https://drive.google.com/uc?export=download&id=1IsTd0iNyiiMgODjT9u9YJuOqAGomf2fW",
+            "hash": "D26230380932FCB84A5134A931FACBAA11A74FF1745732FFEA15FAC69EAF6A53"
         }        
-    },
-	"extract_dir": "StarStaX-0.71_win64\\StarStaX-0.71",
-  "bin": "StarStaX.exe",
+    },	
+  "bin": "Sequator.exe",
 	"shortcuts": [
         [
-            "StarStaX.exe",
-            "Star Sta X"
+            "Sequator.exe",
+            "Sequator"
         ]
     ]   
     
