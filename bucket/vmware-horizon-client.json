@@ -28,7 +28,7 @@
         "        Set-Content \"$dir\\$_.reg\" $content -Encoding Ascii -Force",
         "    }",
         "}",
-		"reg import \"$dir\\install-browser-launch.reg\"",
+		"reg import \"$dir\\install-browser-launch.reg\""
     ],
     "uninstaller": {
         "script": [
