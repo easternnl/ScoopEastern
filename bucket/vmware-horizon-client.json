@@ -21,9 +21,9 @@
     },
 	"post_install": [
         "'install-browser-launch', 'uninstall-browser-launch' | ForEach-Object {",
-        "    if (Test-Path \"$bucketsdir\\extras\\scripts\\vmware-horizon-client\\$_.reg\") {",
+        "    if (Test-Path \"$bucketsdir\\eastern\\scripts\\vmware-horizon-client\\$_.reg\") {",
         "        $vmwareViewPath = \"$dir\\vmware-view.exe\".Replace('\\', '\\\\')",
-        "        $content = (Get-Content \"$bucketsdir\\extras\\scripts\\vmware-horizon-client\\$_.reg\").Replace('$vmwareview', $vmwareViewPath)",
+        "        $content = (Get-Content \"$bucketsdir\\eastern\\scripts\\vmware-horizon-client\\$_.reg\").Replace('$vmwareview', $vmwareViewPath)",
         "        if ($global) { $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE') }",
         "        Set-Content \"$dir\\$_.reg\" $content -Encoding Ascii -Force",
         "    }",
