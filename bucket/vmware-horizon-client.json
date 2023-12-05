@@ -20,7 +20,7 @@
         ]
     },
 	"post_install": [
-        "'install-context', 'uninstall-context' | ForEach-Object {",
+        "'install-browser-launch', 'uninstall-browser-launch' | ForEach-Object {",
         "    if (Test-Path \"$bucketsdir\\extras\\scripts\\vmware-horizon-client\\$_.reg\") {",
         "        $vmwareViewPath = \"$dir\\vmware-view.exe\".Replace('\\', '\\\\')",
         "        $content = (Get-Content \"$bucketsdir\\extras\\scripts\\vmware-horizon-client\\$_.reg\").Replace('$vmwareview', $vmwareViewPath)",
