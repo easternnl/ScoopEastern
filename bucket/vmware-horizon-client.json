@@ -7,7 +7,7 @@
 	"notes": "To support launching VMware Horizon Client via the browser run the following command: reg import \"$dir\\install-browser-launch.reg\"",
     "architecture": {
         "64bit": {            
-			"url", "https://download3.vmware.com/software/CART24FQ4_WIN_2309.1/VMware-Horizon-Client-2309.1-8.11.1-22783278.exe#/VMware-Horizon-Client-Setup.exe",
+			"url": "https://download3.vmware.com/software/CART24FQ4_WIN_2309.1/VMware-Horizon-Client-2309.1-8.11.1-22783278.exe#/VMware-Horizon-Client-Setup.exe",
             "hash": "59427a21383dc87ee5a1fe8faabcb1b472b4e44087951b4def81a6c84b8a7c74"
         }
     },
