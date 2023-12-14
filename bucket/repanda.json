@@ -1,0 +1,21 @@
+{
+    "version": "23.2.18",
+	  "description": "Redpanda is a streaming data platform for developers. Kafka® API-compatible. ZooKeeper® free. JVM free.",
+    "homepage": "https://github.com/redpanda-data/redpanda",
+    "license": "BSL/RCL",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/redpanda-data/redpanda/releases/download/v23.2.18/rpk-windows-amd64.zip",
+            "hash": "649b30f289f5455504c413b6e914826bdda7f1edf8984f6e8350599bac93ea2d"
+        }        
+    },
+	
+    "bin": "rpk.exe",
+	"shortcuts": [
+        [
+            "rpk.exe",
+            "Repanda"
+        ]
+    ]   
+    
+}
